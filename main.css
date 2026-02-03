@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+.store-item {
+    @apply w-56;
+}
+
+.store-item>span {
+    @apply mx-3;
+}

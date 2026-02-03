@@ -8,11 +8,11 @@
   </head>
 
   <body>
-    <div id="app">
-      <header>
-        <h1>My Store</h1>
+    <div id="app" class="grid gap-3">
+      <header class="flex items-center justify-between p-4">
+        <h1 class="text-xl font-semibold">My Store</h1>
         <nav>
-          <ul>
+          <ul class="flex space-x-3">
             <li><a href="#">Link 1</a></li>
             <li><a href="#">Link 2</a></li>
             <li><a href="#">Link 3</a></li>
@@ -20,7 +20,7 @@
           </ul>
         </nav>
       </header>
-      <main>
+      <main class="grid grid-cols-1 md:grid-cols-4 gap-4">
         <div class="store-item">
           <img
             src="https://m.media-amazon.com/images/I/31TcnQiBTpL._AC_UF894,1000_QL80_.jpg"
